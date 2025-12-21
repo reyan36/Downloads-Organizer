@@ -3,18 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Downloads Organizer - Automate Your Workflow</title>
-    
-    <!-- Tailwind CSS -->
+    <title>Downloads Organizer</title>
+    <link rel="shortcut icon" href="icon.png" type="image/x-icon">
     <script src="https://cdn.tailwindcss.com"></script>
-    
-    <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
-    
-    <!-- AOS Animation Library -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    
-    <!-- FontAwesome Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
     <script>
@@ -64,7 +57,6 @@
             color: #ffffff;
         }
 
-        /* Subtle Grid Background */
         .bg-grid {
             background-size: 40px 40px;
             background-image: linear-gradient(to right, rgba(255, 255, 255, 0.03) 1px, transparent 1px),
@@ -73,7 +65,6 @@
             -webkit-mask-image: linear-gradient(to bottom, black 40%, transparent 100%);
         }
 
-        /* Spotlight Effect Logic */
         .spotlight-card {
             position: relative;
             background: #0a0a0a;
@@ -109,7 +100,7 @@
             opacity: 1;
         }
 
-        /* Custom Selection */
+        
         ::selection {
             background: #00ff88;
             color: black;
@@ -118,7 +109,6 @@
 </head>
 <body class="antialiased">
 
-    <!-- Background Elements -->
     <div class="fixed inset-0 bg-grid z-[-1]"></div>
     <div class="fixed top-0 left-1/2 -translate-x-1/2 w-[800px] h-[500px] bg-accent/10 blur-[120px] rounded-full z-[-1] animate-pulse"></div>
 
@@ -144,7 +134,7 @@
     <section class="pt-40 pb-20 px-6 relative overflow-hidden">
         <div class="max-w-7xl mx-auto grid lg:grid-cols-2 gap-16 items-center">
             
-            <!-- Left: Content -->
+            
             <div data-aos="fade-up" data-aos-duration="1000">
                 <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full border border-accent/20 bg-accent/5 text-accent text-xs font-mono mb-8">
                     <span class="relative flex h-2 w-2">
@@ -180,11 +170,11 @@
                 </div>
             </div>
 
-            <!-- Right: Interactive Visual -->
+    
             <div class="relative animate-float hidden lg:block" data-aos="fade-left" data-aos-delay="200">
-                <!-- Main Glass Card -->
+               
                 <div class="relative z-10 bg-bg-card/60 backdrop-blur-xl border border-white/10 rounded-2xl p-6 shadow-2xl">
-                    <!-- Window Header -->
+                    
                     <div class="flex justify-between items-center mb-6 border-b border-white/5 pb-4">
                         <div class="flex gap-2">
                             <div class="w-3 h-3 rounded-full bg-[#ff5f56]"></div>
@@ -194,9 +184,9 @@
                         <span class="text-xs font-mono text-gray-500">C:/Users/You/Downloads</span>
                     </div>
 
-                    <!-- Animated File List -->
+                 
                     <div class="space-y-3 font-mono text-sm">
-                        <!-- Item 1 -->
+                     
                         <div class="flex items-center justify-between p-3 rounded bg-white/5 border border-transparent hover:border-accent/30 transition-all group">
                             <div class="flex items-center gap-3 text-gray-300">
                                 <i class="fa-solid fa-file-image text-purple-400"></i>
@@ -206,7 +196,7 @@
                                 Moved to /Images
                             </span>
                         </div>
-                        <!-- Item 2 -->
+                       
                         <div class="flex items-center justify-between p-3 rounded bg-white/5 border border-transparent hover:border-accent/30 transition-all group">
                             <div class="flex items-center gap-3 text-gray-300">
                                 <i class="fa-brands fa-windows text-blue-400"></i>
@@ -216,7 +206,7 @@
                                 Moved to /Installers
                             </span>
                         </div>
-                        <!-- Item 3 -->
+                        
                         <div class="flex items-center justify-between p-3 rounded bg-white/5 border border-transparent hover:border-accent/30 transition-all group">
                             <div class="flex items-center gap-3 text-gray-300">
                                 <i class="fa-solid fa-file-pdf text-red-400"></i>
@@ -229,19 +219,19 @@
                     </div>
                 </div>
                 
-                <!-- Decorative Glows behind card -->
+                
                 <div class="absolute -top-10 -right-10 w-32 h-32 bg-accent/20 rounded-full blur-3xl"></div>
                 <div class="absolute -bottom-10 -left-10 w-32 h-32 bg-purple-500/20 rounded-full blur-3xl"></div>
             </div>
         </div>
     </section>
 
-    <!-- Features with Spotlight Effect -->
+    
     <section id="features" class="py-24 relative z-10">
         <div class="max-w-7xl mx-auto px-6">
 
             <div class="grid md:grid-cols-3 gap-6" id="cards-container">
-                <!-- Card 1 -->
+                
                 <div class="spotlight-card rounded-xl p-8 group border border-bg-border h-full">
                     <div class="spotlight-border"></div>
                     <div class="relative z-10">
@@ -255,7 +245,7 @@
                     </div>
                 </div>
 
-                <!-- Card 2 -->
+              
                 <div class="spotlight-card rounded-xl p-8 group border border-bg-border h-full">
                     <div class="spotlight-border"></div>
                     <div class="relative z-10">
@@ -269,7 +259,7 @@
                     </div>
                 </div>
 
-                <!-- Card 3 -->
+                
                 <div class="spotlight-card rounded-xl p-8 group border border-bg-border h-full">
                     <div class="spotlight-border"></div>
                     <div class="relative z-10">
@@ -292,7 +282,7 @@
             <h2 class="text-center text-3xl font-bold mb-16">Setup in 30 Seconds</h2>
             
             <div class="space-y-4">
-                <!-- Step 1 -->
+                
                 <div class="flex items-center p-6 bg-bg-card rounded-xl border border-white/5 hover:border-accent/30 transition-colors" data-aos="fade-up">
                     <div class="text-4xl font-bold text-white/10 mr-6 font-mono">01</div>
                     <div>
@@ -301,7 +291,7 @@
                     </div>
                 </div>
 
-                <!-- Step 2 -->
+               
                 <div class="flex items-center p-6 bg-bg-card rounded-xl border border-white/5 hover:border-accent/30 transition-colors" data-aos="fade-up" data-aos-delay="100">
                     <div class="text-4xl font-bold text-white/10 mr-6 font-mono">02</div>
                     <div>
@@ -310,7 +300,7 @@
                     </div>
                 </div>
 
-                <!-- Step 3 -->
+               
                 <div class="flex items-center p-6 bg-bg-card rounded-xl border border-white/5 hover:border-accent/30 transition-colors" data-aos="fade-up" data-aos-delay="200">
                     <div class="text-4xl font-bold text-white/10 mr-6 font-mono">03</div>
                     <div>
@@ -322,7 +312,7 @@
         </div>
     </section>
 
-    <!-- Download CTA -->
+    
     <section id="download" class="py-24 relative overflow-hidden text-center">
         <div class="absolute inset-0 bg-accent/5 z-0"></div>
         <div class="max-w-2xl mx-auto px-6 relative z-10">
@@ -334,7 +324,7 @@
                 <i class="fa-solid fa-download"></i> Download Installer
             </a>
 
-            <!-- Technical Badge -->
+          
             <div class="mt-12 inline-block text-left bg-black/40 backdrop-blur border border-yellow-500/20 p-4 rounded-lg">
                 <div class="flex gap-3 items-start">
                     <i class="fa-solid fa-triangle-exclamation text-yellow-500 mt-1"></i>
@@ -373,7 +363,7 @@
             duration: 800,
         });
 
-        // Spotlight Effect Script
+        
         const cards = document.querySelectorAll(".spotlight-card");
         document.getElementById("cards-container").onmousemove = e => {
             for(const card of cards) {

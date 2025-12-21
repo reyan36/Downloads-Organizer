@@ -1,0 +1,8 @@
+__pycache__/
+build/
+dist/
+*.spec
+venv/
+*.exe
+DownloadsOrganizer_Setup.exe
+organizer_config.json

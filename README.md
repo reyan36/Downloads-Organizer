@@ -53,10 +53,13 @@ If you prefer to run the raw Python code:
 2. Install dependencies: pip install watchdog pystray pillow
 3. Run the script: python download_organizer.py
 
-## Contributing
+## Developer
 
-Contributions are welcome. Feel free to fork the project, create a feature branch, and open a Pull Request.
+- [@Reyan Arshad](https://www.linkedin.com/in/reyan36/)
+
 
 ## License
 
-Distributed under the MIT License. See the LICENSE file for more information.
+Distributed under the MIT License. See `LICENSE` for more information.
+
+## © 2026 Downloads Organizer All rights reserved
